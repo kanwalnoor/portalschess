@@ -1,0 +1,329 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "DLaB.Xrm.EarlyBoundGenerator.Api/1.2021.5.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net462/DLaB.EarlyBoundGenerator.Api.dll": {}
+        },
+        "runtime": {
+          "lib/net462/DLaB.EarlyBoundGenerator.Api.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/CrmSvcUtil.exe"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe.config": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/CrmSvcUtil.exe.config"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/DLaB.CrmSvcUtilExtensions.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/DLaB.CrmSvcUtilExtensions.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/DLaB.Dictionary.txt": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/DLaB.Dictionary.txt"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Crm.Sdk.Proxy.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Crm.Sdk.Proxy.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Rest.ClientRuntime.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Rest.ClientRuntime.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.CodeGeneration.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.CodeGeneration.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.Deployment.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.Deployment.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Connector.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Connector.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.CrmConnectControl.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.CrmConnectControl.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Ui.Styles.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Ui.Styles.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.WebResourceUtility.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.WebResourceUtility.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/Newtonsoft.Json.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/Newtonsoft.Json.dll"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1031.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1031.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1036.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1036.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1040.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1040.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1044.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1044.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1045.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1045.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1049.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1049.json"
+          },
+          "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1058.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "DLaB.EarlyBoundGenerator/alphabets/1058.json"
+          }
+        }
+      },
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.33": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "System.DirectoryServices",
+          "System.DirectoryServices.AccountManagement",
+          "System.IdentityModel",
+          "System.Runtime.Serialization",
+          "System.Security",
+          "System.ServiceModel",
+          "System.ServiceModel.Web",
+          "System.Web",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DLaB.Xrm.EarlyBoundGenerator.Api/1.2021.5.2": {
+      "sha512": "muVNkrLh0DQsd/WHlLNwX/8IqbG5P/T4jWPsqh2Aj4SaD5NEfv2sOZwxgj6f6k0hqGQ3vaQg/CZ98MMNAj1x8w==",
+      "type": "package",
+      "path": "dlab.xrm.earlyboundgenerator.api/1.2021.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/bin/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe",
+        "content/bin/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe.config",
+        "content/bin/DLaB.EarlyBoundGenerator/DLaB.CrmSvcUtilExtensions.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/DLaB.Dictionary.txt",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Crm.Sdk.Proxy.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Rest.ClientRuntime.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.CodeGeneration.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.Deployment.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Connector.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.WebResourceUtility.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/Newtonsoft.Json.dll",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1031.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1036.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1040.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1044.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1045.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1049.json",
+        "content/bin/DLaB.EarlyBoundGenerator/alphabets/1058.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/CrmSvcUtil.exe.config",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/DLaB.CrmSvcUtilExtensions.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/DLaB.Dictionary.txt",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Crm.Sdk.Proxy.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Rest.ClientRuntime.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.CodeGeneration.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Client.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.Deployment.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Sdk.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Connector.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Microsoft.Xrm.Tooling.WebResourceUtility.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/Newtonsoft.Json.dll",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1031.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1036.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1040.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1044.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1045.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1049.json",
+        "contentFiles/any/any/DLaB.EarlyBoundGenerator/alphabets/1058.json",
+        "dlab.xrm.earlyboundgenerator.api.1.2021.5.2.nupkg.sha512",
+        "dlab.xrm.earlyboundgenerator.api.nuspec",
+        "images/DLaB_Dynamics_Logo_Square_32x32.png",
+        "lib/net462/DLaB.EarlyBoundGenerator.Api.dll"
+      ]
+    },
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.33": {
+      "sha512": "UeVSiyXf3xTnbBXvQdMmG5e0wk61CkQTkRZAWu7qIzQItujUE5toOUtQ6IzEg0lv2d+jdFY2wNlKGF+L9NY1Aw==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/LicenseTerms.docx",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net462/Microsoft.Xrm.Sdk.dll",
+        "lib/net462/Microsoft.Xrm.Sdk.xml",
+        "lib/net462/Other Redistributable.txt",
+        "lib/net462/Third Party Notices for Dynamics 365 SDK.docx",
+        "microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "DLaB.Xrm.EarlyBoundGenerator.Api >= 1.2021.5.2",
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.33"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ks199\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "projectName": "PortalsChess",
+      "projectPath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "packagesPath": "C:\\Users\\ks199\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ks199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net4.6.2",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "targetAlias": "net4.6.2",
+        "dependencies": {
+          "DLaB.Xrm.EarlyBoundGenerator.Api": {
+            "target": "Package",
+            "version": "[1.2021.5.2, )"
+          },
+          "Microsoft.CrmSdk.CoreAssemblies": {
+            "target": "Package",
+            "version": "[9.0.2.33, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JTiYWq6aj2OhQUck8AveXiXtWNcAoDqbei7Ho/P6psL7afqxTQATpRSaFmWiw2xjMS8RxtQZnyBSt0eQCDnxiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ks199\\.nuget\\packages\\dlab.xrm.earlyboundgenerator.api\\1.2021.5.2\\dlab.xrm.earlyboundgenerator.api.1.2021.5.2.nupkg.sha512",
+    "C:\\Users\\ks199\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.33\\microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512"
+  ],
+  "logs": []
+}
