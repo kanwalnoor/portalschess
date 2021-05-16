@@ -184,6 +184,9 @@
           "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
           "lib/net462/Microsoft.Xrm.Sdk.dll": {}
         }
+      },
+      "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+        "type": "package"
       }
     }
   },
@@ -266,12 +269,47 @@
         "microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512",
         "microsoft.crmsdk.coreassemblies.nuspec"
       ]
+    },
+    "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+      "sha512": "m6/9wZSa7HYwPipod4ZkS87r5UqGZDgkuGHjrJtEvpLWrh8jO1SSq6b1SlJLEaiUE7zWK6AJd99/IH765bTTvA==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coretools/9.1.0.79",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/bin/coretools/CrmSvcUtil.exe",
+        "content/bin/coretools/CrmSvcUtil.exe.config",
+        "content/bin/coretools/CrmSvcUtil.xml",
+        "content/bin/coretools/LicenseTerms.docx",
+        "content/bin/coretools/Microsoft.ApplicationInsights.dll",
+        "content/bin/coretools/Microsoft.Crm.Sdk.Proxy.dll",
+        "content/bin/coretools/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "content/bin/coretools/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "content/bin/coretools/Microsoft.Rest.ClientRuntime.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.Deployment.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Connector.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "content/bin/coretools/Newtonsoft.Json.dll",
+        "content/bin/coretools/Other Redistributable.txt",
+        "content/bin/coretools/SolutionPackager.exe",
+        "content/bin/coretools/SolutionPackager.exe.config",
+        "content/bin/coretools/SolutionPackagerLib.dll",
+        "content/bin/coretools/System.Diagnostics.DiagnosticSource.dll",
+        "content/bin/coretools/System.ValueTuple.dll",
+        "content/bin/coretools/pacTelemetryUpload.exe",
+        "content/bin/coretools/pacTelemetryUpload.exe.config",
+        "microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512",
+        "microsoft.crmsdk.coretools.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.2": [
       "DLaB.Xrm.EarlyBoundGenerator.Api >= 1.2021.5.2",
-      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.33"
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.33",
+      "Microsoft.CrmSdk.CoreTools >= 9.1.0.79"
     ]
   },
   "packageFolders": {
@@ -320,9 +358,13 @@
           "Microsoft.CrmSdk.CoreAssemblies": {
             "target": "Package",
             "version": "[9.0.2.33, )"
+          },
+          "Microsoft.CrmSdk.CoreTools": {
+            "target": "Package",
+            "version": "[9.1.0.79, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

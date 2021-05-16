@@ -2,6 +2,7 @@
 using System;
 using System.ServiceModel;
 
+
 namespace PortalsChess
 {
     public class GameCreatePostOperation : IPlugin
@@ -19,7 +20,7 @@ namespace PortalsChess
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
             {
                 // Obtain the target entity from the input parameters.  
-                Entity entity = (Entity)context.InputParameters["Target"];
+                Entity target = (Entity)context.InputParameters["Target"];
 
                 // Obtain the organization service reference which you will need for  
                 // web service calls.  
@@ -29,11 +30,8 @@ namespace PortalsChess
                 try
                 {
                     // Plug-in business logic goes here.
-                    Entity[] 
-                    for(int i = 0; i < 63; i++)
-                    {
 
-                    }
+                    CreateBoardSquares.createBoard(service, target);
                 }
 
                 catch (FaultException<OrganizationServiceFault> ex)
