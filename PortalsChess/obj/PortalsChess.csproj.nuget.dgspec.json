@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+        "projectName": "PortalsChess",
+        "projectPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+        "packagesPath": "C:\\Users\\kanwalsingh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kanwalsingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net4.6.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net4.6.2",
+          "dependencies": {
+            "Microsoft.CrmSdk.CoreAssemblies": {
+              "target": "Package",
+              "version": "[9.0.2.33, )"
+            },
+            "Microsoft.CrmSdk.CoreTools": {
+              "target": "Package",
+              "version": "[9.1.0.79, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.33": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "System.DirectoryServices",
+          "System.DirectoryServices.AccountManagement",
+          "System.IdentityModel",
+          "System.Runtime.Serialization",
+          "System.Security",
+          "System.ServiceModel",
+          "System.ServiceModel.Web",
+          "System.Web",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        }
+      },
+      "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.33": {
+      "sha512": "UeVSiyXf3xTnbBXvQdMmG5e0wk61CkQTkRZAWu7qIzQItujUE5toOUtQ6IzEg0lv2d+jdFY2wNlKGF+L9NY1Aw==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/LicenseTerms.docx",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net462/Microsoft.Xrm.Sdk.dll",
+        "lib/net462/Microsoft.Xrm.Sdk.xml",
+        "lib/net462/Other Redistributable.txt",
+        "lib/net462/Third Party Notices for Dynamics 365 SDK.docx",
+        "microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    },
+    "Microsoft.CrmSdk.CoreTools/9.1.0.79": {
+      "sha512": "m6/9wZSa7HYwPipod4ZkS87r5UqGZDgkuGHjrJtEvpLWrh8jO1SSq6b1SlJLEaiUE7zWK6AJd99/IH765bTTvA==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coretools/9.1.0.79",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/bin/coretools/CrmSvcUtil.exe",
+        "content/bin/coretools/CrmSvcUtil.exe.config",
+        "content/bin/coretools/CrmSvcUtil.xml",
+        "content/bin/coretools/LicenseTerms.docx",
+        "content/bin/coretools/Microsoft.ApplicationInsights.dll",
+        "content/bin/coretools/Microsoft.Crm.Sdk.Proxy.dll",
+        "content/bin/coretools/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "content/bin/coretools/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "content/bin/coretools/Microsoft.Rest.ClientRuntime.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.Deployment.dll",
+        "content/bin/coretools/Microsoft.Xrm.Sdk.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Connector.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "content/bin/coretools/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "content/bin/coretools/Newtonsoft.Json.dll",
+        "content/bin/coretools/Other Redistributable.txt",
+        "content/bin/coretools/SolutionPackager.exe",
+        "content/bin/coretools/SolutionPackager.exe.config",
+        "content/bin/coretools/SolutionPackagerLib.dll",
+        "content/bin/coretools/System.Diagnostics.DiagnosticSource.dll",
+        "content/bin/coretools/System.ValueTuple.dll",
+        "content/bin/coretools/pacTelemetryUpload.exe",
+        "content/bin/coretools/pacTelemetryUpload.exe.config",
+        "microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512",
+        "microsoft.crmsdk.coretools.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.33",
+      "Microsoft.CrmSdk.CoreTools >= 9.1.0.79"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kanwalsingh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "projectName": "PortalsChess",
+      "projectPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "packagesPath": "C:\\Users\\kanwalsingh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\kanwalsingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net4.6.2",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "targetAlias": "net4.6.2",
+        "dependencies": {
+          "Microsoft.CrmSdk.CoreAssemblies": {
+            "target": "Package",
+            "version": "[9.0.2.33, )"
+          },
+          "Microsoft.CrmSdk.CoreTools": {
+            "target": "Package",
+            "version": "[9.1.0.79, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
