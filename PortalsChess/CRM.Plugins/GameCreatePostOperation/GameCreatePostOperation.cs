@@ -17,10 +17,10 @@ namespace PortalsChess
             IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
 
             // The InputParameters collection contains all the data passed in the message request.  
-            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is pc_Board)
             {
                 // Obtain the target entity from the input parameters.  
-                Entity target = (Entity)context.InputParameters["Target"];
+                pc_Board target = (pc_Board)context.InputParameters["Target"];
 
                 // Obtain the organization service reference which you will need for  
                 // web service calls.  

@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net4.6.2</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>PortalsChessPlugin.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,7 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DLaB.Xrm.EarlyBoundGenerator.Api" Version="1.2021.5.2" />
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.33" />
     <PackageReference Include="Microsoft.CrmSdk.CoreTools" Version="9.1.0.79" />
   </ItemGroup>
