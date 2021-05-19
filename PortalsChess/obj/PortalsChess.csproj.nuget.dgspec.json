@@ -40,10 +40,6 @@
         "net462": {
           "targetAlias": "net4.6.2",
           "dependencies": {
-            "DLaB.Xrm.EarlyBoundGenerator.Api": {
-              "target": "Package",
-              "version": "[1.2021.5.2, )"
-            },
             "Microsoft.CrmSdk.CoreAssemblies": {
               "target": "Package",
               "version": "[9.0.2.33, )"
