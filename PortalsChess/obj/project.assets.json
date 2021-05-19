@@ -92,19 +92,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kanwalsingh\\.nuget\\packages\\": {}
+    "C:\\Users\\ks199\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "projectUniqueName": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
       "projectName": "PortalsChess",
-      "projectPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
-      "packagesPath": "C:\\Users\\kanwalsingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\obj\\",
+      "projectPath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
+      "packagesPath": "C:\\Users\\ks199\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kanwalsingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ks199\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

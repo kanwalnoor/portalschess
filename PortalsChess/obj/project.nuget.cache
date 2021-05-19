@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HgCpx6e0L78olWSRJy/8T8BprHfcyW/rCnyTIx9y1nT1fAlbgB9rYU7VpWNUaCn++HVryr3sr4lh85UFpow2CA==",
+  "dgSpecHash": "l1IZ+FjEXDhUbq02Nu6pjIKrGWYW8k1esP7V83bSTPCNGZSnf0l1Fq5E2bYMSp3Kxur8yAvDNkm6vMNvP8I/6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kanwalsingh\\source\\portalschess\\PortalsChess\\PortalsChess.csproj",
+  "projectFilePath": "C:\\Users\\ks199\\OneDrive\\Documents\\git\\portalschess\\PortalsChess\\PortalsChess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kanwalsingh\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.33\\microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512",
-    "C:\\Users\\kanwalsingh\\.nuget\\packages\\microsoft.crmsdk.coretools\\9.1.0.79\\microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512"
+    "C:\\Users\\ks199\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.33\\microsoft.crmsdk.coreassemblies.9.0.2.33.nupkg.sha512",
+    "C:\\Users\\ks199\\.nuget\\packages\\microsoft.crmsdk.coretools\\9.1.0.79\\microsoft.crmsdk.coretools.9.1.0.79.nupkg.sha512"
   ],
   "logs": []
 }
