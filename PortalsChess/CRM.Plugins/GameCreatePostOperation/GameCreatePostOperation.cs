@@ -32,8 +32,8 @@ namespace PortalsChess
                     // Plug-in business logic goes here.
 
                     var board = target.ToEntity<pc_Board>();
-                    var boardBL = new CreateBoardSquares();
-                    boardBL.createBoard(service, board);
+                    var boardBL = new BoardSquaresBL();
+                    boardBL.createBoardSquaresAndAssociate(service, board);
                 }
 
                 catch (FaultException<OrganizationServiceFault> ex)
