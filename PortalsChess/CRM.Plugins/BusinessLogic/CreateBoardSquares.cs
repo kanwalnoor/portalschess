@@ -10,19 +10,21 @@ namespace PortalsChess
 {
     class CreateBoardSquares
     {
-        public static void createBoard(IOrganizationService service, pc_Board target)
+        public void createBoard(IOrganizationService service, pc_Board target)
         {
             char[] alph = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
             var squareReferences = new EntityReferenceCollection();
 
-            for(int i = 0; i < 7; i++)
+            for(int i = 0; i < 8; i++)
             {
-                for(int j = 0; j < 7; j++)
+                for(int j = 0; j < 8; j++)
                 {
-                    pc_Square square = new pc_Square();
+                    pc_Square square = new pc_Square 
+                    {
+                        pc_name = alph[i] + (j + 1).ToString()
+                    };
                     
                     square.Id = service.Create(square);
-                    square.pc_name = alph[i] + (j + 1).ToString();
                     squareReferences.Add(square.ToEntityReference());
                 }
             }
